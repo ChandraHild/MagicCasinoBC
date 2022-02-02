@@ -427,6 +427,9 @@ COMMANDS: all commands must be whispered to myself.
 !stack <name_of_the_sub> - [Dommes ONLY] use this to take a sub as your stack (dommes only)
 !accept - [Subs ONLY] to accept a domme
 !refuse - [Subs ONLY] to refuse a domme
+
+Please report suggestions and bugs here:
+https://github.com/ProofNefarious/MagicCasinoBC
 ` // end of description
 ServerSend("AccountUpdate", { Description: Player.Description });
 ChatRoomCharacterUpdate(Player)

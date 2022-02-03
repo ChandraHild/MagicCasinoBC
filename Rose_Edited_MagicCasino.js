@@ -582,6 +582,7 @@ function checkWinners() {
     } else {
       if (customerList[ChatRoomCharacter[D].MemberNumber].winNum == -1) {
         ServerSend("ChatRoomChat", { Content: "Congratulations " + ChatRoomCharacter[D].Name + "! You got " + domWinReward + " wins. You have earned the rights to a special reward! When you want to get your reward just use the command !reward.", Type: "Chat"} );
+      	customerList[ChatRoomCharacter[D].MemberNumber].winNum = -1;
       }
     }
 

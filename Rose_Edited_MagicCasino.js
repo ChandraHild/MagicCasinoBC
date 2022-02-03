@@ -6,7 +6,7 @@
 
 
 
-i ServerSocket.on("ChatRoomMessage", function (data) { ChatRoomMessageAdd(data); });
+ServerSocket.on("ChatRoomMessage", function (data) { ChatRoomMessageAdd(data); });
 
 if (typeof ChatRoomMessageAdditionDict === 'undefined') {
   ChatRoomMessageAdditionDict = {}
